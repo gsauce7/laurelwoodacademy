@@ -1,0 +1,26 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+h1 {
+    align-self: center;
+}
+h3 {
+    font-weight: bolder;
+}
+
+.section2 {
+    background-color: black;
+    color: white;
+    padding: 5%;
+}
+
+img {
+    margin-right: 3%;
+}
