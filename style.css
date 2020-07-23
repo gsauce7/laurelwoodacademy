@@ -1,6 +1,11 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
 .wrapper {
     width: 80%;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 header {
@@ -8,12 +13,6 @@ header {
     flex-flow: row wrap;
 }
 
-h1 {
-    align-self: center;
-}
-h3 {
-    font-weight: bolder;
-}
 
 .section2 {
     background-color: black;
@@ -21,6 +20,23 @@ h3 {
     padding: 5%;
 }
 
-img {
-    margin-right: 3%;
+h1 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 6rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
 }
